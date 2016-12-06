@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7CCABC71DCA8CBB00CD19A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CCABC61DCA8CBB00CD19A4 /* AppDelegate.swift */; };
+		C7CCABC91DCA8CBB00CD19A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CCABC81DCA8CBB00CD19A4 /* ViewController.swift */; };
+		C7CCABCC1DCA8CBB00CD19A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CCABCA1DCA8CBB00CD19A4 /* Main.storyboard */; };
+		C7CCABCE1DCA8CBB00CD19A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CCABCD1DCA8CBB00CD19A4 /* Assets.xcassets */; };
+		C7CCABD11DCA8CBC00CD19A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CCABCF1DCA8CBC00CD19A4 /* LaunchScreen.storyboard */; };
+		C7CCABDC1DCA8CBC00CD19A4 /* HumbleBeeTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CCABDB1DCA8CBC00CD19A4 /* HumbleBeeTTests.swift */; };
+		C7CCABE71DCA8CBC00CD19A4 /* HumbleBeeTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CCABE61DCA8CBC00CD19A4 /* HumbleBeeTUITests.swift */; };
+		C7CCABF61DCA8D2600CD19A4 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7CCABF51DCA8D2600CD19A4 /* EstimoteSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7CCABD81DCA8CBC00CD19A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CCABBB1DCA8CBB00CD19A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CCABC21DCA8CBB00CD19A4;
+			remoteInfo = HumbleBeeT;
+		};
+		C7CCABE31DCA8CBC00CD19A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7CCABBB1DCA8CBB00CD19A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7CCABC21DCA8CBB00CD19A4;
+			remoteInfo = HumbleBeeT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79BAFB31DCA95A70084C666 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridge.h; sourceTree = "<group>"; };
+		C7CCABC31DCA8CBB00CD19A4 /* HumbleBeeT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumbleBeeT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CCABC61DCA8CBB00CD19A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7CCABC81DCA8CBB00CD19A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7CCABCB1DCA8CBB00CD19A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7CCABCD1DCA8CBB00CD19A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7CCABD01DCA8CBC00CD19A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C7CCABD21DCA8CBC00CD19A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CCABD71DCA8CBC00CD19A4 /* HumbleBeeTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumbleBeeTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CCABDB1DCA8CBC00CD19A4 /* HumbleBeeTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumbleBeeTTests.swift; sourceTree = "<group>"; };
+		C7CCABDD1DCA8CBC00CD19A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CCABE21DCA8CBC00CD19A4 /* HumbleBeeTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumbleBeeTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7CCABE61DCA8CBC00CD19A4 /* HumbleBeeTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumbleBeeTUITests.swift; sourceTree = "<group>"; };
+		C7CCABE81DCA8CBC00CD19A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CCABF51DCA8D2600CD19A4 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = HumbleBeeT/EstimoteSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7CCABC01DCA8CBB00CD19A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CCABF61DCA8D2600CD19A4 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABD41DCA8CBC00CD19A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABDF1DCA8CBC00CD19A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7CCABBA1DCA8CBB00CD19A4 = {
+			isa = PBXGroup;
+			children = (
+				C7CCABF51DCA8D2600CD19A4 /* EstimoteSDK.framework */,
+				C7CCABC51DCA8CBB00CD19A4 /* HumbleBeeT */,
+				C7CCABDA1DCA8CBC00CD19A4 /* HumbleBeeTTests */,
+				C7CCABE51DCA8CBC00CD19A4 /* HumbleBeeTUITests */,
+				C7CCABC41DCA8CBB00CD19A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7CCABC41DCA8CBB00CD19A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCABC31DCA8CBB00CD19A4 /* HumbleBeeT.app */,
+				C7CCABD71DCA8CBC00CD19A4 /* HumbleBeeTTests.xctest */,
+				C7CCABE21DCA8CBC00CD19A4 /* HumbleBeeTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7CCABC51DCA8CBB00CD19A4 /* HumbleBeeT */ = {
+			isa = PBXGroup;
+			children = (
+				C79BAFB31DCA95A70084C666 /* ObjCBridge.h */,
+				C7CCABC61DCA8CBB00CD19A4 /* AppDelegate.swift */,
+				C7CCABC81DCA8CBB00CD19A4 /* ViewController.swift */,
+				C7CCABCA1DCA8CBB00CD19A4 /* Main.storyboard */,
+				C7CCABCD1DCA8CBB00CD19A4 /* Assets.xcassets */,
+				C7CCABCF1DCA8CBC00CD19A4 /* LaunchScreen.storyboard */,
+				C7CCABD21DCA8CBC00CD19A4 /* Info.plist */,
+			);
+			path = HumbleBeeT;
+			sourceTree = "<group>";
+		};
+		C7CCABDA1DCA8CBC00CD19A4 /* HumbleBeeTTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCABDB1DCA8CBC00CD19A4 /* HumbleBeeTTests.swift */,
+				C7CCABDD1DCA8CBC00CD19A4 /* Info.plist */,
+			);
+			path = HumbleBeeTTests;
+			sourceTree = "<group>";
+		};
+		C7CCABE51DCA8CBC00CD19A4 /* HumbleBeeTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCABE61DCA8CBC00CD19A4 /* HumbleBeeTUITests.swift */,
+				C7CCABE81DCA8CBC00CD19A4 /* Info.plist */,
+			);
+			path = HumbleBeeTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7CCABC21DCA8CBB00CD19A4 /* HumbleBeeT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CCABEB1DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeT" */;
+			buildPhases = (
+				C7CCABBF1DCA8CBB00CD19A4 /* Sources */,
+				C7CCABC01DCA8CBB00CD19A4 /* Frameworks */,
+				C7CCABC11DCA8CBB00CD19A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumbleBeeT;
+			productName = HumbleBeeT;
+			productReference = C7CCABC31DCA8CBB00CD19A4 /* HumbleBeeT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7CCABD61DCA8CBC00CD19A4 /* HumbleBeeTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CCABEE1DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeTTests" */;
+			buildPhases = (
+				C7CCABD31DCA8CBC00CD19A4 /* Sources */,
+				C7CCABD41DCA8CBC00CD19A4 /* Frameworks */,
+				C7CCABD51DCA8CBC00CD19A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CCABD91DCA8CBC00CD19A4 /* PBXTargetDependency */,
+			);
+			name = HumbleBeeTTests;
+			productName = HumbleBeeTTests;
+			productReference = C7CCABD71DCA8CBC00CD19A4 /* HumbleBeeTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7CCABE11DCA8CBC00CD19A4 /* HumbleBeeTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CCABF11DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeTUITests" */;
+			buildPhases = (
+				C7CCABDE1DCA8CBC00CD19A4 /* Sources */,
+				C7CCABDF1DCA8CBC00CD19A4 /* Frameworks */,
+				C7CCABE01DCA8CBC00CD19A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7CCABE41DCA8CBC00CD19A4 /* PBXTargetDependency */,
+			);
+			name = HumbleBeeTUITests;
+			productName = HumbleBeeTUITests;
+			productReference = C7CCABE21DCA8CBC00CD19A4 /* HumbleBeeTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7CCABBB1DCA8CBB00CD19A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Humble Bee";
+				TargetAttributes = {
+					C7CCABC21DCA8CBB00CD19A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B5T76SYC28;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C7CCABD61DCA8CBC00CD19A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C7CCABC21DCA8CBB00CD19A4;
+					};
+					C7CCABE11DCA8CBC00CD19A4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C7CCABC21DCA8CBB00CD19A4;
+					};
+				};
+			};
+			buildConfigurationList = C7CCABBE1DCA8CBB00CD19A4 /* Build configuration list for PBXProject "HumbleBeeT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7CCABBA1DCA8CBB00CD19A4;
+			productRefGroup = C7CCABC41DCA8CBB00CD19A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7CCABC21DCA8CBB00CD19A4 /* HumbleBeeT */,
+				C7CCABD61DCA8CBC00CD19A4 /* HumbleBeeTTests */,
+				C7CCABE11DCA8CBC00CD19A4 /* HumbleBeeTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7CCABC11DCA8CBB00CD19A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CCABD11DCA8CBC00CD19A4 /* LaunchScreen.storyboard in Resources */,
+				C7CCABCE1DCA8CBB00CD19A4 /* Assets.xcassets in Resources */,
+				C7CCABCC1DCA8CBB00CD19A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABD51DCA8CBC00CD19A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABE01DCA8CBC00CD19A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7CCABBF1DCA8CBB00CD19A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CCABC91DCA8CBB00CD19A4 /* ViewController.swift in Sources */,
+				C7CCABC71DCA8CBB00CD19A4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABD31DCA8CBC00CD19A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CCABDC1DCA8CBC00CD19A4 /* HumbleBeeTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7CCABDE1DCA8CBC00CD19A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7CCABE71DCA8CBC00CD19A4 /* HumbleBeeTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7CCABD91DCA8CBC00CD19A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CCABC21DCA8CBB00CD19A4 /* HumbleBeeT */;
+			targetProxy = C7CCABD81DCA8CBC00CD19A4 /* PBXContainerItemProxy */;
+		};
+		C7CCABE41DCA8CBC00CD19A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7CCABC21DCA8CBB00CD19A4 /* HumbleBeeT */;
+			targetProxy = C7CCABE31DCA8CBC00CD19A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7CCABCA1DCA8CBB00CD19A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CCABCB1DCA8CBB00CD19A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7CCABCF1DCA8CBC00CD19A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7CCABD01DCA8CBC00CD19A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7CCABE91DCA8CBC00CD19A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7CCABEA1DCA8CBC00CD19A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7CCABEC1DCA8CBC00CD19A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HumbleBeeT",
+				);
+				INFOPLIST_FILE = HumbleBeeT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+			};
+			name = Debug;
+		};
+		C7CCABED1DCA8CBC00CD19A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HumbleBeeT",
+				);
+				INFOPLIST_FILE = HumbleBeeT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/ObjCBridge.h";
+			};
+			name = Release;
+		};
+		C7CCABEF1DCA8CBC00CD19A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HumbleBeeTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumbleBeeT.app/HumbleBeeT";
+			};
+			name = Debug;
+		};
+		C7CCABF01DCA8CBC00CD19A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HumbleBeeTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumbleBeeT.app/HumbleBeeT";
+			};
+			name = Release;
+		};
+		C7CCABF21DCA8CBC00CD19A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HumbleBeeTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HumbleBeeT;
+			};
+			name = Debug;
+		};
+		C7CCABF31DCA8CBC00CD19A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HumbleBeeTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.humblebee.HumbleBeeTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HumbleBeeT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7CCABBE1DCA8CBB00CD19A4 /* Build configuration list for PBXProject "HumbleBeeT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CCABE91DCA8CBC00CD19A4 /* Debug */,
+				C7CCABEA1DCA8CBC00CD19A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CCABEB1DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CCABEC1DCA8CBC00CD19A4 /* Debug */,
+				C7CCABED1DCA8CBC00CD19A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CCABEE1DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CCABEF1DCA8CBC00CD19A4 /* Debug */,
+				C7CCABF01DCA8CBC00CD19A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CCABF11DCA8CBC00CD19A4 /* Build configuration list for PBXNativeTarget "HumbleBeeTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7CCABF21DCA8CBC00CD19A4 /* Debug */,
+				C7CCABF31DCA8CBC00CD19A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7CCABBB1DCA8CBB00CD19A4 /* Project object */;
+}
